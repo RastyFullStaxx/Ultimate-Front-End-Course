@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+
+.zbox{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 18em;
+    text-align: center;
+
+    transform: translateX(490px) rotateZ(45deg) translateY(90px) scale(0.5);
+}
+
+#box1{
+    background-color: rgb(160, 252, 23)
+}
+
+#box2{
+    background-color: rgb(252, 57, 23)
+}
+
+#box3{
+    background-color: rgb(23, 252, 214)
+}
+
+img{
+    transform: translateX(240px) rotateZ(180deg) scale(1);
+    margin-top: 50px;
+    border: 2px solid;
+}
+
+/*
+#box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 18em;
+    text-align: center;
+    background-color: rgb(160, 252, 23);
+
+    /* moving horizontally (x axis); percentages can be used (using the width as reference 
+    transform: translateX(420px); */
+
+    /* vertical (y axis)
+    transform: translateY(320px);*/
+
+    /* combined (x,y) 
+    transform: translate(400px, 300px);*/
+    
+    /* rotation (x y and z)
+    transform: rotateZ(45deg);*/
+
+    /* scale (x y) and combinable
+    transform: scale(3);*/
+
+    /* Skew (x y) combinable 
+    transform: skew(45deg, 35deg);*/
+
+    /* multiple transformations 
+    transform: translateX(100%) rotateZ(90deg) scale(0.5);
+} */

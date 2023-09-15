@@ -1,0 +1,14 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4em;
+}
+
+#greetings p {
+    background-color: aqua;
+    padding: 30px;
+    display: none;
+}
+
+#greetings:hover p {
+    display: block;
+}

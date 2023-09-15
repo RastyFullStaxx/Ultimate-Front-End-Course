@@ -1,0 +1,22 @@
+body{
+    margin: 70px;
+}
+
+.box{
+    border: solid 5px;
+    font-size: 7em;
+    width: 250px;
+    height: 250px;
+}
+
+#b1{
+    background-color: cadetblue;
+    margin-bottom: 50px;
+    margin: 50px;
+}
+#b2{
+    background-color: goldenrod;
+    margin: auto;
+}
+
+/* note: Margins can be specifically directed as well! */

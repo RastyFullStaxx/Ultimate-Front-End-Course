@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Buttons</title>
+
+</head>
+
+<body>
+    
+    <!--
+    <a href="https://github.com/RastyFullStaxx">
+    <button style="background-color: goldenrod; 
+    color:greenyellow; border-radius:5px">SPANK ME</button> 
+    -->
+
+    <!-- 
+        "disabled" boolean attribute to the button
+        to add multiple css properties, seperate it with semi-colon
+        no need to type the style again
+    --> 
+
+    <button onclick="saySomething()" style="background-color: goldenrod; 
+    color:greenyellow; border-radius:5px">SPANK ME</button> 
+
+    <p id="test">Follow RastyFullStaxx</p>
+
+    <script> 
+        function saySomething(){
+            document.getElementById("test").innerHTML = "tHnxx!!";
+        }
+    </script>
+
+</body>
+
+</html>

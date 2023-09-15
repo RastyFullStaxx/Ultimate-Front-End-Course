@@ -1,0 +1,41 @@
+
+
+h1{
+    font-family:"Courier New", Courier, monospace;
+    font-size: 40px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-style:oblique;
+}
+
+/* Using Google Fonts */
+#p2{
+    font-family: 'Roboto Mono';
+    font-size: 1.6em;
+}
+
+#p3{
+    font-family: 'Raleway';
+    font-size: 1.6em;
+}
+
+/* Downloaded Google Fonts */
+@font-face{
+    src: url(c_Fonts/Raleway-VariableFont_wght.ttf);
+    font-family:Raleway-VariableFont;
+}
+#p4{
+    font-family: 'Raleway-VariableFont';
+    font-size: 1.6em;
+}

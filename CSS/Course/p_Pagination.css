@@ -1,0 +1,18 @@
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: bisque;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(221, 226, 230);
+    border-radius: 5px;
+}

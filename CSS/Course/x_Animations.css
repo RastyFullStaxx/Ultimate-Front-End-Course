@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    font-size: 18em;
+    text-align: center;
+}
+
+@keyframes slideLeft {
+    from{transform: translateX(1000px)}
+}
+
+@keyframes slideRight {
+    to{transform: translateX(1000px)}
+}
+
+@keyframes slideUp {
+    from{transform: translateY(1000px)}
+}
+
+@keyframes slideDown {
+    to{transform: translateY(1000px)}
+}
+
+@keyframes rotate {
+    100%{transform: rotateZ(360deg);}
+}
+
+img:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+    50%{box-shadow: 0px 0px 70px rgb(255, 19, 19);}
+}

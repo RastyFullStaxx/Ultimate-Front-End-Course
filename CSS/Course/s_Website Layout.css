@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+
+header{
+    background-color: rgb(219, 219, 218);
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+
+.navbar{
+    background-color:rgb(39, 39, 39);
+    height: 50px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+div{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(39, 39, 39);
+    color: aliceblue;
+    padding: 5px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+    height: 30px;
+}
+
+footer h2{
+    margin: 0;
+    padding-right: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar a{
+    color: aliceblue; ;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+.navbar a:hover{
+    background-color: rgb(69, 70, 70);
+}
+
+footer h2:hover{
+    background-color: rgb(69, 70, 70);
+}
+
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}

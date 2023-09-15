@@ -1,0 +1,21 @@
+body{
+    margin: 12px;
+}
+
+#calculate:hover{
+    background-color: rgb(255, 139, 45);
+    border: 2px solid rgb(255, 139, 45);
+    width: 90px;
+    display: block;
+}
+
+#calculateText{
+    color:rgb(255, 102, 0);
+    font-weight: bolder;
+    text-align: center;
+    background-color: burlywood;
+    border-color: chocolate;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    width: 90px;
+}

@@ -1,0 +1,20 @@
+body{
+    font-size: 3em;
+}
+
+li:hover{
+    color: aqua;
+    background-color: bisque;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Everything that is not hovered over 
+li:not(:hover){
+    background-color: bisque;
+}*/
+
+/* Selects a specific child or direct element (odd, even, 3n - every nth number, formulas can be used)
+li:nth-child(odd){
+    background-color: cadetblue;
+}

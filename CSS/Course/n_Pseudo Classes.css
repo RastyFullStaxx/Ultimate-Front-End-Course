@@ -1,0 +1,17 @@
+a{
+    color: rgb(4, 255, 171);
+    font-size: 50px;
+}
+
+a:hover{
+    color:chartreuse;    
+    font-size: 6em;
+}
+
+a:active{
+    color:brown;    
+}
+
+a:visited{
+    color: cadetblue;
+}

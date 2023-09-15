@@ -1,0 +1,77 @@
+/* Relative Application 
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+
+    /* Push to the... 
+    top: 100px;
+    left: 100px;
+} */
+
+
+/* Fixed Appliation
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}*/
+
+
+/*  Absolute Application
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: fixed;
+    top: 100px;
+    bottom: 100px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    position: absolute;
+    top: 50px;               Basically backwards as well.. 
+    left: 50px; 
+}*/
+
+
+/* Sticky Application
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    position: absolute;
+    top: 50px;               
+    left: 50px; 
+}*/
+
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: static;
+    top: 0px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    position: static;
+    top: 50px;               
+    left: 50px; 
+}
+
+
